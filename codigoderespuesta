@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Gracias!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f8ff;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #4caf50;
+            margin-bottom: 20px;
+            animation: bounce 1s infinite;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>¡Gracias por tu envío!</h1>
+        <p>Hemos recibido tu información y nos pondremos en contacto contigo pronto.</p>
+    </div>
+</body>
+</html>
